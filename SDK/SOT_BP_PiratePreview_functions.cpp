@@ -1,0 +1,202 @@
+// SOT: Sea of Thieves (1.0) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x4)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function BP_PiratePreview.BP_PiratePreview_C.UserConstructionScript
+// (FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+
+void ABP_PiratePreview_C::UserConstructionScript()
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.UserConstructionScript"));}
+
+	ABP_PiratePreview_C_UserConstructionScript_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.ReceiveBeginPlay
+// (FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+
+void ABP_PiratePreview_C::ReceiveBeginPlay()
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.ReceiveBeginPlay"));}
+
+	ABP_PiratePreview_C_ReceiveBeginPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.PreviewBusy_Event
+// (FUNC_Final, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// struct FPiratePreviewBusyEvent Data                           (CPF_Parm)
+
+void ABP_PiratePreview_C::PreviewBusy_Event(const struct FPiratePreviewBusyEvent& Data)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.PreviewBusy_Event"));}
+
+	ABP_PiratePreview_C_PreviewBusy_Event_Params params;
+	params.Data = Data;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.PreviewReady_Event
+// (FUNC_NetReliable, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// struct FPiratePreviewReadyEvent Data                           (CPF_Parm)
+
+void ABP_PiratePreview_C::PreviewReady_Event(const struct FPiratePreviewReadyEvent& Data)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.PreviewReady_Event"));}
+
+	ABP_PiratePreview_C_PreviewReady_Event_Params params;
+	params.Data = Data;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.ReceiveEndPlay
+// (FUNC_Final, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// TEnumAsByte<EEndPlayReason>*   EndPlayReason                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData)
+
+void ABP_PiratePreview_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason>* EndPlayReason)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.ReceiveEndPlay"));}
+
+	ABP_PiratePreview_C_ReceiveEndPlay_Params params;
+	params.EndPlayReason = EndPlayReason;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.ExecuteUbergraph_BP_PiratePreview
+// (FUNC_BlueprintAuthorityOnly, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// int                            EntryPoint                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData)
+
+void ABP_PiratePreview_C::ExecuteUbergraph_BP_PiratePreview(int EntryPoint)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.ExecuteUbergraph_BP_PiratePreview"));}
+
+	ABP_PiratePreview_C_ExecuteUbergraph_BP_PiratePreview_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.PreviewShutdown__DelegateSignature
+// (FUNC_Final, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// struct FPiratePreviewShutdownEvent Data                           (CPF_Parm)
+
+void ABP_PiratePreview_C::PreviewShutdown__DelegateSignature(const struct FPiratePreviewShutdownEvent& Data)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.PreviewShutdown__DelegateSignature"));}
+
+	ABP_PiratePreview_C_PreviewShutdown__DelegateSignature_Params params;
+	params.Data = Data;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.PreviewReady__DelegateSignature
+// (FUNC_NetReliable, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// struct FPiratePreviewReadyEvent Data                           (CPF_Parm)
+
+void ABP_PiratePreview_C::PreviewReady__DelegateSignature(const struct FPiratePreviewReadyEvent& Data)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.PreviewReady__DelegateSignature"));}
+
+	ABP_PiratePreview_C_PreviewReady__DelegateSignature_Params params;
+	params.Data = Data;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_PiratePreview.BP_PiratePreview_C.PreviewBusy__DelegateSignature
+// (FUNC_Final, FUNC_MulticastDelegate, FUNC_Public, FUNC_Private, FUNC_Protected, FUNC_Delegate, FUNC_NetServer, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_NetClient, FUNC_DLLImport, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const, FUNC_NetValidate)
+// Parameters:
+// struct FPiratePreviewBusyEvent Data                           (CPF_Parm)
+
+void ABP_PiratePreview_C::PreviewBusy__DelegateSignature(const struct FPiratePreviewBusyEvent& Data)
+{
+	static UFunction* fn = 0;
+	if(fn == 0) { fn = UObject::FindObject<UFunction>(_xor_("Function BP_PiratePreview.BP_PiratePreview_C.PreviewBusy__DelegateSignature"));}
+
+	ABP_PiratePreview_C_PreviewBusy__DelegateSignature_Params params;
+	params.Data = Data;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
